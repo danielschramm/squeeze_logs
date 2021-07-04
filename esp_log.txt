@@ -1,0 +1,258 @@
+[00:02:19.122779] decode_flush:251 decode flush<\r><\n>
+[00:02:19.123746] output_flush:447 flush output buffer<\r><\n>
+[00:02:21.883957] codec_open:279 codec open: 'a'<\r><\n>
+[00:02:21.884976] helixaac_open:593 opening adts stream<\r><\n>
+[00:02:21.891323] stream_sock:508 connecting to 54.38.152.152:80<\r><\n>
+[00:02:21.919646] stream_sock:582 header: GET /ffhchannels/hq90er.aac?amsparams=playerid:RTFFHTunein;skey:1625392484 HTTP/1.0<\r><\r><\n>
+Cache-Control: no-cache<\r><\r><\n>
+Connection: close<\r><\r><\n>
+Accept: */*<\r><\r><\n>
+Host: mp3.ffh.de<\r><\r><\n>
+Range: bytes=0-<\r><\r><\n>
+User-Agent: iTunes/4.7.1 (Linux; N; Debian; x86_64-linux; DE; utf8) SqueezeCenter, Squeezebox Server, Logitech Media Server/8.1.1/1610364019<\r><\r><\n>
+Cookie: AISSessionId=5fb1d515dc3e26de_19902544_CefcncES_MTcyLjE2LjAuNzU6ODA!_0000002P2tN<\r><\r><\n>
+Cookie2: $Version="1"<\r><\r><\n>
+Icy-MetaData: 1<\r><\r><\n>
+<\r><\r><\n>
+<\r><\n>
+[00:02:22.856468] stream_thread:264 headers: len: 622<\r><\n>
+HTTP/1.0 200 OK<\r><\r><\n>
+icy-br: 128<\r><\r><\n>
+icy-pub: 0<\r><\r><\n>
+icy-description: Unspecified description<\r><\r><\n>
+icy-audio-info: ice-samplerate=;ice-bitrate=128;ice-channels=2<\r><\r><\n>
+icy-url: https://www.ffh.de<\r><\r><\n>
+Instance-id: 247d319d0e6cd2e25d9d21715292c8af<\r><\r><\n>
+Cache-Control: no-cache<\r><\r><\n>
+Server: AIS Streaming Server 8.4.3<\r><\r><\n>
+icy-genre:  <\r><\r><\n>
+Expires: Mon, 26 Jul 1997 05:00:00 GMT<\r><\r><\n>
+icy-metaint: 16000<\r><\r><\n>
+Pragma: no-cache<\r><\r><\n>
+icy-name: FFH JUST 90S<\r><\r><\n>
+Connection: close<\r><\r><\n>
+Content-Type: audio/aacp<\r><\r><\n>
+Set-Cookie: AISSessionId=5fb1d515dc3e26de_19902546_AIysqc5K_MTcyLjE2LjAuNzU6ODA!_0000002P2tU; Path=/; Domain=mp3.ffh.de; Max-Age=6000; Expires=Sun, 04 Jul 2021 11:34:47 GMT<\r><\r><\n>
+<\r><\r><\n>
+<\r><\n>
+[00:02:23.270169] stream_thread:317 icy meta: len: 112<\r><\n>
+StreamTitle='Ronan Keating - When You Say Nothing At All';StreamUrl='16611787';customMetadata='16611787';<\r><\n>
+[00:02:23.441704] output_thread_i2s:452 Output state is 1<\r><\n>
+[00:02:23.443633] output_thread_i2s:515 Restarting I2S.<\r><\n>
+[00:02:23.484507] helixaac_decode:423 setting track start, samplerate: 44100 channels: 2<\r><\n>
+[00:02:23.583261] _output_frames:65 start buffer frames: 6144<\r><\n>
+[00:02:23.585594] _output_frames:150 track start sample rate: 44100 replay_gain: 0<\r><\n>
+[00:02:23.586856] output_thread_i2s:452 Output state is 2<\r><\n>
+ets Jun  8 2016 00:22:57<\r><\n>
+<\r><\n>
+rst:0x1 (POWERON_RESET),boot:0x1f (SPI_FAST_FLASH_BOOT)<\r><\n>
+configsip: 0, SPIWP:0xee<\r><\n>
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00<\r><\n>
+mode:DIO, clock div:1<\r><\n>
+load:0x3fff0018,len:4<\r><\n>
+load:0x3fff001c,len:6948<\r><\n>
+load:0x40078000,len:13772<\r><\n>
+load:0x40080400,len:4532<\r><\n>
+entry 0x400806a0<\r><\n>
+<27>[0;32mI (62) boot: Chip Revision: 1<27>[0m<\r><\n>
+<27>[0;32mI (64) boot_comm: chip revision: 1, min. bootloader chip revision: 0<27>[0m<\r><\n>
+<27>[0;32mI (39) boot: ESP-IDF v4.0.1-465-g1c7607d4a 2nd stage bootloader<27>[0m<\r><\n>
+<27>[0;32mI (39) boot: compile time 17:18:06<27>[0m<\r><\n>
+<27>[0;32mI (48) boot: Enabling RNG early entropy source...<27>[0m<\r><\n>
+<27>[0;32mI (49) qio_mode: Enabling QIO for flash chip WinBond<27>[0m<\r><\n>
+<27>[0;32mI (51) boot: SPI Speed      : 80MHz<27>[0m<\r><\n>
+<27>[0;32mI (55) boot: SPI Mode       : QIO<27>[0m<\r><\n>
+<27>[0;32mI (59) boot: SPI Flash Size : 4MB<27>[0m<\r><\n>
+<27>[0;32mI (63) boot: Partition Table:<27>[0m<\r><\n>
+<27>[0;32mI (67) boot: ## Label            Usage          Type ST Offset   Length<27>[0m<\r><\n>
+<27>[0;32mI (74) boot:  0 nvs              WiFi data        01 02 00009000 00004000<27>[0m<\r><\n>
+<27>[0;32mI (81) boot:  1 otadata          OTA data         01 00 0000d000 00002000<27>[0m<\r><\n>
+<27>[0;32mI (89) boot:  2 phy_init         RF data          01 01 0000f000 00001000<27>[0m<\r><\n>
+<27>[0;32mI (96) boot:  3 recovery         factory app      00 00 00010000 00140000<27>[0m<\r><\n>
+<27>[0;32mI (104) boot:  4 ota_0            OTA app          00 10 00150000 002a0000<27>[0m<\r><\n>
+<27>[0;32mI (111) boot:  5 settings         WiFi data        01 02 003f0000 00010000<27>[0m<\r><\n>
+<27>[0;32mI (119) boot: End of partition table<27>[0m<\r><\n>
+<27>[0;32mI (123) boot_comm: chip revision: 1, min. application chip revision: 0<27>[0m<\r><\n>
+<27>[0;32mI (130) esp_image: segment 0: paddr=0x00150020 vaddr=0x3f400020 size=0xdf5ec (914924) map<27>[0m<\r><\n>
+<27>[0;32mI (433) esp_image: segment 1: paddr=0x0022f614 vaddr=0x3ffbdb60 size=0x009fc (  2556) load<27>[0m<\r><\n>
+<27>[0;32mI (435) esp_image: segment 2: paddr=0x00230018 vaddr=0x400d0018 size=0x17bcc8 (1555656) map<27>[0m<\r><\n>
+<27>[0;32mI (940) esp_image: segment 3: paddr=0x003abce8 vaddr=0x3ffbe55c size=0x06098 ( 24728) load<27>[0m<\r><\n>
+<27>[0;32mI (949) esp_image: segment 4: paddr=0x003b1d88 vaddr=0x40080000 size=0x00400 (  1024) load<27>[0m<\r><\n>
+<27>[0;32mI (950) esp_image: segment 5: paddr=0x003b2190 vaddr=0x40080400 size=0x1e44c (123980) load<27>[0m<\r><\n>
+<27>[0;32mI (1002) esp_image: segment 6: paddr=0x003d05e4 vaddr=0x400c0000 size=0x00068 (   104) load<27>[0m<\r><\n>
+<27>[0;32mI (1021) boot: Loaded app from partition at offset 0x150000<27>[0m<\r><\n>
+<27>[0;32mI (1021) boot: Disabling RNG early entropy source...<27>[0m<\r><\n>
+<27>[0;32mI (1022) psram: This chip is ESP32-D0WD<27>[0m<\r><\n>
+<27>[0;32mI (1026) spiram: Found 64MBit SPI RAM device<27>[0m<\r><\n>
+<27>[0;32mI (1031) spiram: SPI RAM mode: flash 80m sram 80m<27>[0m<\r><\n>
+<27>[0;32mI (1036) spiram: PSRAM initialized, cache is in low/high (2-core) mode.<27>[0m<\r><\n>
+<27>[0;32mI (1044) cpu_start: Pro cpu up.<27>[0m<\r><\n>
+<27>[0;32mI (1047) cpu_start: Application information:<27>[0m<\r><\n>
+<27>[0;32mI (1052) cpu_start: Project name:     Squeezelite-ESP32<27>[0m<\r><\n>
+<27>[0;32mI (1058) cpu_start: App version:      I2S-4MFlash.16.689.master-cmake<27>[0m<\r><\n>
+<27>[0;32mI (1065) cpu_start: Compile time:     May 24 2021 17:41:58<27>[0m<\r><\n>
+<27>[0;32mI (1072) cpu_start: ELF file SHA256:  476b71230bd85b5e...<27>[0m<\r><\n>
+<27>[0;32mI (1078) cpu_start: ESP-IDF:          v4.0.2-206-g5630b17e1<27>[0m<\r><\n>
+<27>[0;32mI (1084) cpu_start: Starting app cpu, entry point is 0x40081a3c<27>[0m<\r><\n>
+<27>[0;32mI (0) cpu_start: App cpu up.<27>[0m<\r><\n>
+<27>[0;32mI (1590) spiram: SPI SRAM memory test OK<27>[0m<\r><\n>
+<27>[0;32mI (1593) heap_init: Initializing. RAM available for dynamic allocation:<27>[0m<\r><\n>
+<27>[0;32mI (1593) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM<27>[0m<\r><\n>
+<27>[0;32mI (1597) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM<27>[0m<\r><\n>
+<27>[0;32mI (1603) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM<27>[0m<\r><\n>
+<27>[0;32mI (1610) heap_init: At 3FFBDB5C len 00000004 (0 KiB): DRAM<27>[0m<\r><\n>
+<27>[0;32mI (1616) heap_init: At 3FFC78C8 len 00018738 (97 KiB): DRAM<27>[0m<\r><\n>
+<27>[0;32mI (1622) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM<27>[0m<\r><\n>
+<27>[0;32mI (1628) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM<27>[0m<\r><\n>
+<27>[0;32mI (1635) heap_init: At 4009E84C len 000017B4 (5 KiB): IRAM<27>[0m<\r><\n>
+<27>[0;32mI (1641) cpu_start: Pro cpu start user code<27>[0m<\r><\n>
+<27>[0;32mI (1646) spiram: Adding pool of 4049K of external SPI memory to heap allocator<27>[0m<\r><\n>
+<27>[0;32mI (1667) spi_flash: detected chip: generic<27>[0m<\r><\n>
+<27>[0;32mI (1667) spi_flash: flash io: qio<27>[0m<\r><\n>
+<27>[0;32mI (1667) esp_core_dump_common: Init core dump to UART<27>[0m<\r><\n>
+<27>[0;31mE (1676) esp_core_dump_common: No core dump partition found!<27>[0m<\r><\n>
+<27>[0;32mI (1677) cpu_start: Starting scheduler on PRO CPU.<27>[0m<\r><\n>
+<27>[0;32mI (0) cpu_start: Starting scheduler on APP CPU.<27>[0m<\r><\n>
+<27>[0;32mI (1688) spiram: Reserving pool of 64K of internal memory for DMA/internal allocations<27>[0m<\r><\n>
+<27>[0;32mI (1698) esp_app_main: Reset reason is: 1<27>[0m<\r><\n>
+<27>[0;32mI (1698) esp_app_main: Starting app_main<27>[0m<\r><\n>
+<27>[0;32mI (1708) nvs_utilities: Initializing flash nvs <27>[0m<\r><\n>
+<27>[0;32mI (1738) nvs_utilities: Initializing nvs partition settings<27>[0m<\r><\n>
+<27>[0;32mI (1768) esp_app_main: Setting up telnet.<27>[0m<\r><\n>
+<27>[0;32mI (1768) telnet: Telnet support disabled<27>[0m<\r><\n>
+<27>[0;32mI (1768) esp_app_main: Setting up config subsystem.<27>[0m<\r><\n>
+<27>[0;32mI (1808) esp_app_main: Registering default values<27>[0m<\r><\n>
+<27>[0;32mI (1808) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE<27>[0m<\r><\n>
+<27>[0;33mW (1818) config: Waiting for config commit ...<27>[0m<\r><\n>
+<27>[0;32mI (2808) config: configuration has some uncommitted entries<27>[0m<\r><\n>
+<27>[0;32mI (2808) config: Committing configuration to nvs. Locking config object.<27>[0m<\r><\n>
+<27>[0;32mI (2808) config: Config committed!<27>[0m<\r><\n>
+<27>[0;32mI (2808) esp_app_main: Configuring services<27>[0m<\r><\n>
+<27>[0;32mI (2818) config: Done Committing configuration to nvs.<27>[0m<\r><\n>
+<27>[0;32mI (2818) services: Configuring I2C sda:-1 scl:-1 port:1 speed:400000<27>[0m<\r><\n>
+<27>[0;33mW (2828) services: no I2C configured<27>[0m<\r><\n>
+<27>[0;32mI (2828) services: Configuring SPI data:-1 clk:-1 host:1 dc:-1<27>[0m<\r><\n>
+<27>[0;33mW (2838) services: no SPI configured<27>[0m<\r><\n>
+<27>[0;33mW (2838) led: LED GPIO -1 ignored<27>[0m<\r><\n>
+<27>[0;33mW (2848) led: LED GPIO -1 ignored<27>[0m<\r><\n>
+<27>[0;32mI (2848) led: Configuring LEDs green:-1 (active:0 -1%), red:-1 (active:0 -1%)<27>[0m<\r><\n>
+<27>[0;32mI (2858) battery: No battery<27>[0m<\r><\n>
+<27>[0;32mI (2858) monitor: Initializing monitoring<27>[0m<\r><\n>
+<27>[0;32mI (2868) monitor: Heap internal:230068 (min:229404) external:4117324 (min:4117324)<27>[0m<\r><\n>
+<27>[0;32mI (2878) esp_app_main: Initializing display<27>[0m<\r><\n>
+<27>[0;32mI (2878) display: Trying to configure display with N/A<27>[0m<\r><\n>
+<27>[0;33mW (2888) display: No display driver<27>[0m<\r><\n>
+<27>[0;32mI (2888) esp_app_main: Checking if certificates need to be updated<27>[0m<\r><\n>
+<27>[0;32mI (2898) esp_app_main: About to check if certificates need to be updated in flash<27>[0m<\r><\n>
+<27>[0;32mI (2908) esp_app_main: Running partition [ota_0] type 0 subtype 16 (offset 0x00150000)<27>[0m<\r><\n>
+<27>[0;32mI (2918) esp_app_main: Running version: I2S-4MFlash.16.689.master-cmake<27>[0m<\r><\n>
+<27>[0;32mI (2918) esp_app_main: Certificate version: I2S-4MFlash.16.689.master-cmake<27>[0m<\r><\n>
+<27>[0;32mI (2928) esp_app_main: Checking for update url<27>[0m<\r><\n>
+<27>[0;33mW (2938) config: Value not found for key fwurl<27>[0m<\r><\n>
+<27>[0;32mI (2938) esp_app_main: Starting Wifi Manager<27>[0m<\r><\n>
+I (2958) wifi:wifi driver task: 3ffdd0ac, prio:23, stack:6656, core=0<\r><\n>
+<27>[0;32mI (2958) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE<27>[0m<\r><\n>
+<27>[0;32mI (2958) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE<27>[0m<\r><\n>
+I (2978) wifi:wifi firmware version: 6e1f9e4<\r><\n>
+I (2978) wifi:config NVS flash: enabled<\r><\n>
+I (2978) wifi:config nano formating: disabled<\r><\n>
+I (2978) wifi:Init data frame dynamic rx buffer num: 40<\r><\n>
+I (2988) wifi:Init management frame dynamic rx buffer num: 40<\r><\n>
+I (2988) wifi:Init management short buffer num: 32<\r><\n>
+I (2998) wifi:Init static tx buffer num: 12<\r><\n>
+I (2998) wifi:Init static rx buffer size: 1600<\r><\n>
+I (3008) wifi:Init static rx buffer num: 12<\r><\n>
+I (3008) wifi:Init dynamic rx buffer num: 40<\r><\n>
+<27>[0;32mI (3098) phy: phy_version: 4390, 6b3c1f2, Sep 10 2020, 15:09:07, 0, 0<27>[0m<\r><\n>
+I (3098) wifi:mode : null<\r><\n>
+<27>[0;32mI (3098) http_server: Initializing HTTP Server<27>[0m<\r><\n>
+<27>[0;32mI (3128) wifi_manager: Saved wifi found on startup. Will attempt to connect.<27>[0m<\r><\n>
+I (3128) wifi:mode : sta (4c:11:ae:f4:47:54)<\r><\n>
+<27>[0;32mI (3128) wifi_manager: Wifi Connecting...<27>[0m<\r><\n>
+<\r><\n>
+Type 'help' to get the list of commands.<\r><\n>
+Use UP/DOWN arrows to navigate through command history.<\r><\n>
+Press TAB when typing command name to auto-complete.<\r><\n>
+<\r><\n>
+To automatically execute lines at startup:<\r><\n>
+<9>Set NVS variable autoexec (U8) = 1 to enable, 0 to disable automatic execution.<\r><\n>
+<9>Set NVS variable autoexec[1~9] (string)to a command that should be executed automatically<\r><\n>
+<\r><\n>
+<\r><\n>
+<27>[5nI (5188) wifi:new:<13,0>, old:<1,1>, ap:<255,255>, sta:<13,0>, prof:1<\r><\n>
+I (5888) wifi:state: init -> auth (b0)<\r><\n>
+<\r><\n>
+****************************<\r><\n>
+Your terminal application does not support escape sequences.<\r><\n>
+Line editing and history features are disabled.<\r><\n>
+On Windows, try using Putty instead.<\r><\n>
+****************************<\r><\n>
+I (5888) wifi:state: auth -> assoc (0)<\r><\n>
+<27>[0;33mW (5898) console: Processing autoexec commands while wifi_manager active.  Wifi related commands will be ignored.<27>[0m<\r><\n>
+I (5908) wifi:<27>[0;32mI (5918) console: autoexec is set to perform auto-process<27>[0m<\r><\n>
+state: assoc -> run (10)<\r><\n>
+<27>[0;32mI (5928) console: Running command autoexec1 = squeezelite -b 500:2000 -d all=info -C 30 -W -n "esp32" -o I2S<27>[0m<\r><\n>
+I (5938) wifi:connected with pinguin, aid = 4, channel 13, BW20, bssid = 2c:30:33:22:75:f8<\r><\n>
+<27>[0;33mW (5938) config: Value not found for key autoexec2<27>[0m<\r><\n>
+I (5938) wifi:security: WPA2-PSK, phy: bgn, rssi: -51<27>[0;32mI (5938) squeezelite_cmd: Calling squeezelite<27>[0m<\r><\n>
+<\r><\n>
+squeezelite-esp32> <27>[0;32mI (5958) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE<27>[0m<\r><\n>
+I (5958) wifi:pm start, type: 1<\r><\n>
+<\r><\n>
+[00:00:04.310946] stream_init:387 init stream<\r><\n>
+[00:00:04.313338] sb_controls_init:233 initializing audio (buttons/rotary/ir) controls (raw:0)<\r><\n>
+<27>[0;32mI (5988) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE<27>[0m<\r><\n>
+<27>[0;32mI (5988) tcpip_adapter: sta ip: 10.10.15.119, mask: 255.255.240.0, gw: 10.10.10.1<27>[0m<\r><\n>
+[00:00:04.337304] sendSETD:423 sending dimension 0x0<\r><\n>
+<27>[0;32mI (5998) wifi_manager: SYSTEM_EVENT_STA_GOT_IP. IP=10.10.15.119, Gateway=10.10.10.1, NetMask=255.255.240.0, Address was c[00:00:04.350024] output_init_embedded:70 init device: I2S<\r><\n>
+hanged<27>[0m<\r><\n>
+I (6018) wifi:AP's beacon interval = 102400 us, DTIM period = 2<\r><\n>
+[00:00:04.362118] output_init_common:434 supported rates: 192000 176400 96000 88200 48000 44100 32000 24000 22050 16000 12000 11025 8000 <\r><\n>
+<27>[0;32mI (6038) esp_app_main: Wifi connected!<27>[0m<\r><\n>
+[00:00:04.385111] output_init_embedded:86 init I2S/SPDIF<\r><\n>
+<27>[0;32mI (6048) DAC core: DAC uses I2C port:0, sda:33, scl:32<27>[0m<\r><\n>
+<27>[0;32mI (6058) AC101: AC101 detected<27>[0m<\r><\n>
+<27>[0;32mI (6168) I2S: DMA Malloc info, datalen=blocksize=2048, dma_buf_count=12<27>[0m<\r><\n>
+<27>[0;32mI (6168) I2S: APLL: Req RATE: 44100, real rate: 44099.988, BITS: 16, CLKM: 1, BCK_M: 8, MCLK: 11289597.000, SCLK: 1411199.625000, diva: 1, divb: 0<27>[0m<\r><\n>
+[00:00:04.517177] output_init_i2s:318 AC101 DAC using I2S bck:27, ws:26, do:25, mute:21:0 (res:0)<\r><\n>
+[00:00:04.528688] output_init_i2s:338 Initializing I2S mode normal with rate: 44100, bits per sample: 16, buffer frames: 512, number of buffers: 12 <\r><\n>
+[00:00:04.542905] output_visu_init:75 Initialize VISUEXPORT 512 16 bits samples<\r><\n>
+[00:00:04.542780] output_thread_i2s:452 Output state is -1<\r><\n>
+[00:00:04.544076] output_init_embedded:94 init completed.<\r><\n>
+[00:00:04.555670] decode_init:153 init decode<\r><\n>
+[00:00:04.555688] output_thread_i2s:456 switching off amp GPIO -1<\r><\n>
+[00:00:04.556394] register_alac:547 using alac to decode alc<\r><\n>
+[00:00:04.568055] register_helixaac:686 using helix-aac to decode aac<\r><\n>
+[00:00:04.579127] register_vorbis:385 using vorbis to decode ogg<\r><\n>
+[00:00:04.579991] register_opus:329 using opus to decode ops<\r><\n>
+[00:00:04.590931] register_flac:332 using flac to decode ogf,flc<\r><\n>
+[00:00:04.591771] register_pcm:468 using pcm to decode wav,aif,pcm<\r><\n>
+[00:00:04.602785] register_mad:417 using mad to decode mp3<\r><\n>
+<27>[0;32mI (6268) BTDM_INIT: BT controller compile version [4bc0a8e]<27>[0m<\r><\n>
+<27>[0;32mI (6278) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE<27>[0m<\r><\n>
+<27>[0;33mW (6678) BT_AV: BT Sink pin code is: [1234] <27>[0m<\r><\n>
+[00:00:05.019334] register_external:315 Initializing BT sink<\r><\n>
+[00:00:05.022505] raop_sink_init:175 mdns hostname for ip 10.10.15.119 set to: [esp32] with servicename esp32<\r><\n>
+<27>[0;33mW (6688) BT_BTC: A2DP Enable with AVRC<27>[0m<\r><\n>
+<27>[0;32mI (6698) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE<27>[0m<\r><\n>
+[00:00:05.048262] raop_create:201 starting mDNS with 4C11AEF44754@esp32<\r><\n>
+[00:00:05.056819] register_external:323 Initializing AirPlay sink<\r><\n>
+[00:00:05.061466] discover_server:825 sending discovery<\r><\n>
+[00:00:05.110828] discover_server:837 got response from: 10.10.10.9:3483<\r><\n>
+[00:00:05.112400] slimproto:939 connecting to 10.10.10.9:3483<\r><\n>
+[00:00:05.191225] slimproto:986 connected<\r><\n>
+[00:00:05.192171] sendHELO:153 mac: 4c:11:ae:f4:47:54<\r><\n>
+[00:00:05.193040] sendHELO:155 cap: Model=squeezeesp32,AccuratePlayPoints=1,HasDigitalOut=1,HasPolarityInversion=1,Balance=1,Depth=16,Firmware=v1.0-689-16,ModelName=SqueezeESP32,MaxSampleRate=192000,alc,aac,ogg,ops,ogf,flc,wav,aif,pcm,mp3<\r><\n>
+[00:00:05.216721] sendSETD:423 sending dimension 0x0<\r><\n>
+[00:00:05.322022] notify:212 notified server 10.10.10.9 hport 9000 cport 9090<\r><\n>
+<27>[0;32mI (6988) wifi_manager: LMS IP: 10.10.10.9, hport: 9000, cport: 9090<27>[0m<\r><\n>
+[00:00:05.336256] process_dsco:464 got DSCO, switching from id 101 to 12<\r><\n>
+[00:00:05.337969] slimproto_run:606 error reading from socket: closed<\r><\n>
+[00:00:05.441396] slimproto:986 connected<\r><\n>
+[00:00:05.442436] sendHELO:153 mac: 4c:11:ae:f4:47:54<\r><\n>
+[00:00:05.443230] sendHELO:155 cap: Model=squeezeesp32,AccuratePlayPoints=1,HasDigitalOut=1,HasPolarityInversion=1,Balance=1,Depth=16,Firmware=v1.0-689-16,ModelName=SqueezeESP32,MaxSampleRate=192000,alc,aac,ogg,ops,ogf,flc,wav,aif,pcm,mp3<\r><\n>
+[00:00:05.466857] sendSETD:423 sending dimension 0x0<\r><\n>
+[00:00:05.472081] notify:212 notified server 10.10.10.9 hport 9000 cport 9090<\r><\n>
+<27>[0;32mI (7138) wifi_manager: LMS IP: 10.10.10.9, hport: 9000, cport: 9090<27>[0m<\r><\n>
+<27>[0;32mI (10448) httpd_handlers: serving /status.json to peer 10.10.10.17 port 38111<27>[0m<\r><\n>
+<27>[0;32mI (10458) httpd_handlers: serving /messages.json to peer 10.10.10.17 port 7892<27>[0m<\r><\n>
